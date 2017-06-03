@@ -60,7 +60,7 @@ for i in range(len(gc_cat)):
         print 'Observational (internal) uncertainty in velocity dispersion:', gc_cat['sig_v_err'][i]
         print 'King-model central concentration, c = log(r_t/r_c) :', gc_cat['c'][i]
         if gc_cat['cc'][i] == 'c': cc_stat= 'yes'
-        if gc_cat['cc'][i] == 'c:': cc_stat= 'maybe'
+        elif gc_cat['cc'][i] == 'c:': cc_stat= 'maybe'
         else: cc_stat= 'no'
         print 'core collapsed?', cc_stat
         print 'Core radius in arcmin:', gc_cat['rc'][i]
