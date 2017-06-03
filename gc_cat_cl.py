@@ -1,9 +1,16 @@
 import sys, os, inspect
 from astropy.io import fits
 
-try:
-    gc_cat = fits.open('https://github.com/bersavosh/GC_cat/raw/master/gc_cat.fits')[1].data
-except:
+online = False
+
+if online == True:
+    try:
+        gc_cat = fits.open('https://github.com/bersavosh/GC_cat/raw/master/gc_cat.fits')[1].data
+    except:
+        path = os.path.dirname(inspect.getfile(inspect.currentframe()))
+        gc_cat = fits.open(path+'/gc_cat.fits')[1].data
+
+if online == False:
     path = os.path.dirname(inspect.getfile(inspect.currentframe()))
     gc_cat = fits.open(path+'/gc_cat.fits')[1].data
 
