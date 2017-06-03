@@ -1,16 +1,8 @@
 import sys, os, inspect
 from astropy.io import fits
 
-def linkcheck(url):
-    try:
-        f = urllib2.urlopen(urllib2.Request(url))
-        LinkFound = True
-    except:
-        LinkFound = False
-    return LinkFound
-
 try:
-    gc_cat = fits.open('https://github.com/bersavosh/Random/raw/master/gc_cat.fits')[1].data
+    gc_cat = fits.open('https://github.com/bersavosh/GC_cat/raw/master/gc_cat.fits')[1].data
 except:
     path = os.path.dirname(inspect.getfile(inspect.currentframe()))
     gc_cat = fits.open(path+'/gc_cat.fits')[1].data
