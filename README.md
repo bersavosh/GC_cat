@@ -36,6 +36,15 @@ or
 
 Spaces or small/capitalized letters in the argument do not affect the query; `teR za n 5` will be recognized as `Terzan5`.
 
+It is also possible to set an alias in your shell to make interface even simpler. E.g., you can add the following line to your `.bashrc` or `.bash_profile`:
+
+`alias gc="python /Users/arash/Research/GC_cat/gc_cat_3.0/git_repo/gc_cat_cl.py"`
+
+and simply run in the terminal:
+
+`$ gc 47tuc`
+
+
 ## Updating:
 The catalog is being maintained and updated intermittently. These updates are automatically applied to the catalog files (`gc_cat.fits` and `gc_cat.txt`). By default, the command-line module first tries to access the database online and check if there are any updates, if failed to find/access the online database, it will look for a local copy of the catalog file in the same folder. If you do not want the module to check online at all, and just read the local copy, you can change this in the script by setting `online = False` at the top of the script.
 
