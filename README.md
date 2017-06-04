@@ -19,13 +19,19 @@ There are two versions of the script:
 - `gc_cl_simple.py`: Written for those who do not use non-standard python packages (astropy in this case). It solely relies on python 2.7's core packages. 
 
 It is possible to run the script without any arguments, in which case, the user will be asked to enter a cluster name:
+
 `$ python gc_cl_astpy.py`
+
 or
+
 `$ python gc_cl_simple.py`
 
 It is also possible to pass cluster name as an argument:
+
 `$ python gc_cl_astpy.py terzan5`
+
 or
+
 `$ python gc_cl_simple.py terzan5`
 
 Spaces or small/capitalized letters in the argument do not affect the query; `teR za n 5` will be recognized as `Terzan5`.
