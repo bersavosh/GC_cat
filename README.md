@@ -15,7 +15,7 @@ The CL module is a simple python script that accepts a query (cluster name) from
 It does not require any installation, simply download this repository as a zip folder and run the appropriate file. 
 
 There are two versions of the script:
-- `gc_cl_astpy.py`: This version uses astropy fits capability to read the database. Slightly more convenient to write.
+- `gc_cl_astpy.py`: This version uses astropy fits capability to read the database. Slightly more convenient to write and maintain.
 - `gc_cl_simple.py`: Written for those who do not use non-standard python packages (astropy in this case). It solely relies on python 2.7's core packages. 
 
 It is possible to run the script without any arguments, in which case, the user will be asked to enter a cluster name:
