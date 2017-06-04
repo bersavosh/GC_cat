@@ -1,6 +1,6 @@
 import sys, os, inspect, urllib2
 
-
+"""
 online = True
 
 if online == True:
@@ -16,6 +16,12 @@ if online == False:
 	cat_file = os.path.abspath(inspect.getfile(inspect.currentframe())).replace('gc_cat_cl_basic.py','gc_cat.txt')
 	with open(cat_file) as f:
 		gc_cat = f.readlines()
+"""
+
+request = urllib2.Request('https://github.com/bersavosh/GC_cat/raw/master/gc_cat.txt')
+request.add_header('Pragma', 'no-cache')
+
+gc_cat = urllib2.urlopen('https://github.com/bersavosh/GC_cat/raw/master/gc_cat.txt').readlines()
 
 
 if len(sys.argv) == 1:
