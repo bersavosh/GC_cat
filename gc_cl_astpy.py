@@ -21,8 +21,8 @@ if len(sys.argv) == 2:
 if len(sys.argv) == 3:
     query = sys.argv[1]+sys.argv[2]
 if len(sys.argv) > 3:
-	print 'Error: Too many arguments'
-	sys.exit(1)
+    print 'Error: Too many arguments'
+    sys.exit(1)
 
 query = query.replace(' ','')
 query = query.lower()
