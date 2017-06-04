@@ -1,4 +1,4 @@
-import sys, os, inspect
+import sys, os, inspect, urllib2
 
 
 cat_file = os.path.abspath(inspect.getfile(inspect.currentframe())).replace('gc_cat_cl_basic.py','gc_cat.txt')

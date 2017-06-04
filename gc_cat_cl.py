@@ -1,7 +1,7 @@
 import sys, os, inspect
 from astropy.io import fits
 
-online = False
+online = True
 
 if online == True:
     try:
