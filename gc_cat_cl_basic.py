@@ -1,9 +1,9 @@
 import sys, os, inspect
 
 
-path = os.path.dirname(inspect.getfile(inspect.currentframe()))
+cat_file = os.path.abspath(inspect.getfile(inspect.currentframe())).replace('gc_cat_cl_basic.py','gc_cat.txt')
 
-with open('gc_cat.txt') as f:
+with open(cat_file) as f:
 	gc_cat = f.readlines()
 
 
@@ -62,12 +62,12 @@ for i in range(1,len(gc_cat)):
 		print 'Core relaxation time t(r_c), in log_10(years):', entry[33]
 		print 'Median relaxation time t(r_h), in log_10(years):', entry[34]
 		print '----------------- Other paramters -----------------------------------------------------------'
-		print 'Predicted NH based on extinction (Bahramian+2015):', '{:.2e}'.format(eval(entry[35])*3.1*2.81e21),'cm^-2'
-		print 'Integrated stellar encounter rate (Bahramian+2013, 47tuc = 1000):', entry[36]
-		print 'Simplified stellar encounter rate [rho^2 * r^3 /sigma] (Bahramian+2013, 47tuc = 1000):', entry[37]
-		print 'Simplified stellar encounter rate [rho^1.5 * r^2] (Bahramian+2013, 47tuc = 1000):', entry[38]
-		print 'Theoretical mass (Gnedin+2002):', entry[39] ,'Msol'
-		print 'Theoretical central velocity dispersion (Gnedin+2002):', entry[40],'km/s'
-		print 'Theoretical escape velocity in the center (Gnedin+2002):', entry[41],'km/s'
-		print 'Catalog Notes:', entry[42]
+		print 'Predicted NH based on extinction (Bahramian+2015):', '{:.2e}'.format(eval(entry[12])*3.1*2.81e21),'cm^-2'
+		print 'Integrated stellar encounter rate (Bahramian+2013, 47tuc = 1000):', entry[35]
+		print 'Simplified stellar encounter rate [rho^2 * r^3 /sigma] (Bahramian+2013, 47tuc = 1000):', entry[36]
+		print 'Simplified stellar encounter rate [rho^1.5 * r^2] (Bahramian+2013, 47tuc = 1000):', entry[37]
+		print 'Theoretical mass (Gnedin+2002):', entry[38] ,'Msol'
+		print 'Theoretical central velocity dispersion (Gnedin+2002):', entry[39],'km/s'
+		print 'Theoretical escape velocity in the center (Gnedin+2002):', entry[40],'km/s'
+		print 'Catalog Notes:', ' '.join(entry[42:])
 		print '============================================================================================='
