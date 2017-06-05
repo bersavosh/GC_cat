@@ -1,17 +1,17 @@
 import sys, os, inspect, urllib2
 
-online = True
+online = False
 
 if online == True:
     try:
         gc_cat = urllib2.urlopen('https://github.com/bersavosh/GC_cat/raw/master/gc_cat.txt').readlines()
     except:
-        cat_file = os.path.abspath(inspect.getfile(inspect.currentframe())).replace('gc_cat_cl_basic.py','gc_cat.txt')
+        cat_file = os.path.abspath(inspect.getfile(inspect.currentframe())).replace('gc_cl_simple.py','gc_cat.txt')
         with open(cat_file) as f:
             gc_cat = f.readlines()
 
 if online == False:
-    cat_file = os.path.abspath(inspect.getfile(inspect.currentframe())).replace('gc_cat_cl_basic.py','gc_cat.txt')
+    cat_file = os.path.abspath(inspect.getfile(inspect.currentframe())).replace('gc_cl_simple.py','gc_cat.txt')
     with open(cat_file) as f:
         gc_cat = f.readlines()
 
