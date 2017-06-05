@@ -93,7 +93,9 @@ Catalog Notes:
 =============================================================================================
 ```
 
-**Note**: It is possible to simply download one of the two scripts and simply run those, without the database files. The script can either search for the catalog files locally (within the same directory as the script) or online (from this repository). To set the script to look online primarily, you can set `online = True` in the script. This option will prioritize looking for catalog file online. If you do not wish the module to read anything online and want it to read the local copy, you can reset `online = False` (this is the default setting).
+**Note 1**: It is possible to simply download one of the two scripts and simply run those, without the database files. The script can either search for the catalog files locally (within the same directory as the script) or online (from this repository). To set the script to look online primarily, you can set `online = True` in the script. This option will prioritize looking for catalog file online. If you do not wish the module to read anything online and want it to read the local copy, you can reset `online = False` (this is the default setting).
+
+**Note 2**: Besides the information within the catalog, the CL module also reports expected hydrogen column density (NH) towards the cluster. These values are based on recent studies of correlation between E(B-V) and NH  ([Bahramian et al. 2015](http://adsabs.harvard.edu/abs/2015MNRAS.452.3475B), [Foight et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...826...66F)). These studies find NH ~ 2.81e21xAv, and here I assume Av ~ 3.1xE(B-V).
 
 ## Updating:
 The catalog is being maintained and updated intermittently. These updates are automatically applied to the catalog files (`gc_cat.fits` and `gc_cat.txt`). You can either check the repository every once in a while to see when was the last update applied or you can set `online = True` in the CL module so it will automatically use the online copy of the catalog instead of a local copy.
