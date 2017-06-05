@@ -49,5 +49,9 @@ and simply run in the terminal:
 ## Updating:
 The catalog is being maintained and updated intermittently. These updates are automatically applied to the catalog files (`gc_cat.fits` and `gc_cat.txt`). You can either check the repository every once in a while to see when was the last update applied or you can set `online = True` in the CL module so it will automatically use the online copy of the catalog instead of a local copy.
 
-## Contact:
-If you have questions/suggestion, feel free to contact [me](https://bersavosh.github.io/).
+Note that updates (e.g., replacing an already reported measurement by a newer measurement based on a deeper study) are always explained in the "notes" column in the catalog. If there is no note, the values are from the three catalogs mentioned above.
+
+## Contact/disclaimer:
+**Contact** If you have questions/suggestion, feel free to contact [me](https://bersavosh.github.io/).
+
+**Disclaimer** This catalog does not contain any original data at the moment, and it is based on published results in various publications. If you find this catalog useful, please make sure to cite the original references, and if possible acknowlege use of this repository.
