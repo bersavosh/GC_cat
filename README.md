@@ -106,3 +106,5 @@ Note that updates (e.g., replacing an already reported measurement by a newer me
 **Contact**: If you have questions/suggestion, feel free to contact [me](https://bersavosh.github.io/).
 
 **Disclaimer**: This catalog does not contain any original data at the moment, and it is based on published results in various publications. If you find this catalog useful, please make sure to cite the original references, and if possible acknowlege use of this repository.
+
+**Caution**: This catalog (and the CL module) are currently in a preliminary form.
