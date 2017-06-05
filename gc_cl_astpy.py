@@ -7,11 +7,11 @@ if online == True:
     try:
         gc_cat = fits.open('https://github.com/bersavosh/GC_cat/raw/master/gc_cat.fits',cache=False)[1].data
     except:
-        path = os.path.abspath(inspect.getfile(inspect.currentframe())).replace('gc_cat_cl.py','gc_cat.fits')
+        path = os.path.abspath(inspect.getfile(inspect.currentframe())).replace('gc_cl_astpy.py','gc_cat.fits')
         gc_cat = fits.open(path)[1].data
 
 if online == False:
-    path = os.path.abspath(inspect.getfile(inspect.currentframe())).replace('gc_cat_cl.py','gc_cat.fits')
+    path = os.path.abspath(inspect.getfile(inspect.currentframe())).replace('gc_cl_astpy.py','gc_cat.fits')
     gc_cat = fits.open(path)[1].data
 
 if len(sys.argv) == 1:
