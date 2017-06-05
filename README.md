@@ -44,9 +44,10 @@ and simply run in the terminal:
 
 `$ gc 47tuc`
 
+**Note**: It is possible to simply download one of the two scripts and simply run those, without the database files. The script can either search for the catalog files locally (within the same directory as the script) or online (from this repository). To set the script to look online primarily, you can set `online = True` in the script. This option will prioritize looking for catalog file online. If you do not wish the module to read anything online and want it to read the local copy, you can reset `online = False` (this is the default setting).
 
 ## Updating:
-The catalog is being maintained and updated intermittently. These updates are automatically applied to the catalog files (`gc_cat.fits` and `gc_cat.txt`). By default, the command-line module first tries to access the database online and check if there are any updates, if failed to find/access the online database, it will look for a local copy of the catalog file in the same folder. If you do not want the module to check online at all, and just read the local copy, you can change this in the script by setting `online = False` at the top of the script.
+The catalog is being maintained and updated intermittently. These updates are automatically applied to the catalog files (`gc_cat.fits` and `gc_cat.txt`). You can either check the repository every once in a while to see when was the last update applied or you can set `online = True` in the CL module so it will automatically use the online copy of the catalog instead of a local copy.
 
 ## Contact:
 If you have questions/suggestion, feel free to contact [me](https://bersavosh.github.io/).
