@@ -7,7 +7,7 @@ This is a combination of multiple globular cluster catalogs. The base catalog is
 
 Additionally, if I encounter new studies which provide updated measurements for one or more clusters, they are added (and such updates are mentioned in the "notes" column in the catalog).
 
-Currently this catalog is available in fits, ascii and [online](https://bersavosh.github.io/research/gc_cat.html).
+Currently this catalog is available in [fits](https://github.com/bersavosh/GC_cat/raw/master/gc_cat.fits), [ascii](https://raw.githubusercontent.com/bersavosh/GC_cat/master/gc_cat.txt) and [online](https://bersavosh.github.io/research/gc_cat.html).
 
 ## Command-line module:
 The CL module is a simple python script that accepts a query (cluster name) from the command-line and searches the catalog for that cluster. If the cluster is listed, it will print out all available information on the cluster.
