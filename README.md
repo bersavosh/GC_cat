@@ -34,7 +34,7 @@ or
 
 `$ python gc_cl_simple.py terzan5`
 
-Spaces or small/capitalized letters in the argument do not affect the query; `teR za n 5` will be recognized as `Terzan5`.
+note that arguments are case-insensitive and ignores spaces, so `teR za n 5` will be recognized as `terzan5`.
 
 It is also possible to set an alias in your shell to make interface even simpler. E.g., you can add the following line to your `.bashrc` or `.bash_profile`:
 
