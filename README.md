@@ -2,8 +2,14 @@
 
 A Catalog of Galactic globular clusters' properties and dynamics. 
 
+## Contents:
+- [The catalog](https://github.com/bersavosh/GC_cat/blob/master/README.md#the-catalog)
+- [Command-line module](https://github.com/bersavosh/GC_cat/blob/master/README.md#command-line-module)
+- [About updates](https://github.com/bersavosh/GC_cat/blob/master/README.md#updating)
+- [Contact/disclaimer](https://github.com/bersavosh/GC_cat/blob/master/README.md#contactdisclaimer)
+
 ## The catalog:
-This is a combination of multiple globular cluster catalogs. The base catalog is the [Harris catalog, 2010 edition](http://www.physics.mcmaster.ca/~harris/Databases.html) ([Harris 1996](http://adsabs.harvard.edu/abs/1996AJ....112.1487H)). There are two other catalogs currently implemented as well: cluster stellar encounter rates from [Bahramian et al. 2013](http://adsabs.harvard.edu/abs/2013ApJ...766..136B) and theoretical mass, velocity disspersion and escape velocities from [Gnedin et al. 2002](http://adsabs.harvard.edu/abs/2002ApJ...568L..23G). More catalogs and studies will be added in the future.
+This is a combination of multiple previously published globular cluster catalogs. The base catalog is the [Harris catalog, 2010 edition](http://www.physics.mcmaster.ca/~harris/Databases.html) ([Harris 1996](http://adsabs.harvard.edu/abs/1996AJ....112.1487H)). There are two other catalogs currently implemented as well: cluster stellar encounter rates from [Bahramian et al. 2013](http://adsabs.harvard.edu/abs/2013ApJ...766..136B) and theoretical mass, velocity disspersion and escape velocities from [Gnedin et al. 2002](http://adsabs.harvard.edu/abs/2002ApJ...568L..23G). More catalogs and studies will be added in the future.
 
 Additionally, if I encounter new studies which provide updated measurements for one or more clusters, they are added (and such updates are mentioned in the "notes" column in the catalog).
 
@@ -100,11 +106,13 @@ Catalog Notes:
 ## Updating:
 The catalog is being maintained and updated intermittently. These updates are automatically applied to the catalog files (`gc_cat.fits` and `gc_cat.txt`). You can either check the repository every once in a while to see when was the last update applied or you can set `online = True` in the CL module so it will automatically use the online copy of the catalog instead of a local copy.
 
-Note that updates (e.g., replacing an already reported measurement by a newer measurement based on a deeper study) are always explained in the "notes" column in the catalog. If there is no note, the values are from the three catalogs mentioned above.
+Note that updates (e.g., replacing an already reported measurement by a newer measurement based on a new study) are always explained in the "notes" column in the catalog. If there is no note, the values are from the three catalogs listed above.
+
+Updating and maintaining catalogs requires a careful job and sufficient experience to judge recent studies and whether they are appropriate/compatible with the catalog. ** Please note that this is not the case in this catalog. I simply update catalog entries based on encountering new studies that I find suitable or suggestions from peers/users. This catalog is meant to provide a quick overview of measured/calculated quantities you can find for globular clusters and cross-match them. Make sure to read the notes for every entry (if present) and check the original references. **
 
 ## Contact/disclaimer:
 **Contact**: If you have questions/suggestion, feel free to contact [me](https://bersavosh.github.io/).
 
 **Disclaimer**: This catalog does not contain any original data at the moment, and it is based on published results in various publications. If you find this catalog useful, please make sure to cite the original references, and if possible acknowlege use of this repository.
 
-**Caution**: This catalog (and the CL module) are currently in a preliminary form.
+**Caution**: This catalog (and the CL module) are currently preliminary.
