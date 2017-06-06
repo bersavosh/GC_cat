@@ -2,7 +2,7 @@
 
 A Catalog of Galactic globular clusters' properties and dynamics. 
 
-*All updates applied to the catalog are logged in the file [updates.md](https://github.com/bersavosh/GC_cat/blob/master/updates.md). *
+*All updates applied to the catalog are logged in the file [updates.md](https://github.com/bersavosh/GC_cat/blob/master/updates.md).*
 
 ## Contents:
 - [The catalog](https://github.com/bersavosh/GC_cat/blob/master/README.md#the-catalog)
