@@ -110,7 +110,7 @@ The catalog is being maintained and updated intermittently. These updates are au
 
 Note that updates (e.g., replacing an already reported measurement by a newer measurement based on a new study) are always explained in the "notes" column in the catalog. If there is no note, the values are from the three catalogs listed above.
 
-Updating and maintaining catalogs requires a careful job and sufficient experience to judge recent studies and whether they are appropriate/compatible with the catalog. ** Please note that this is not the case in this catalog. I simply update catalog entries based on encountering new studies that I find suitable or suggestions from peers/users. This catalog is meant to provide a quick overview of measured/calculated quantities you can find for globular clusters and cross-match them. Make sure to read the notes for every entry (if present) and check the original references. **
+Updating and maintaining catalogs requires a careful job and sufficient experience to judge recent studies and whether they are appropriate/compatible with the catalog. **Please note that this is not the case in this catalog. I simply update catalog entries based on encountering new studies that I find suitable or suggestions from peers/users. This catalog is meant to provide a quick overview of measured/calculated quantities you can find for globular clusters and cross-match them. Make sure to read the notes for every entry (if present) and check the original references.**
 
 All updates applied to the original catalogs are logged in the file [updates.md](https://github.com/bersavosh/GC_cat/blob/master/updates.md). 
 
