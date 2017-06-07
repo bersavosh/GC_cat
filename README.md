@@ -46,7 +46,7 @@ Note that arguments are case-insensitive and spaces are ignored, so `teR za n 5`
 
 It is also possible to set an alias in your shell to make interface even simpler. E.g., you can add the following line to your `.bashrc` or `.bash_profile`:
 
-`alias gc="python /Users/arash/Research/GC_cat/gc_cat_3.0/git_repo/gc_cat_cl.py"`
+`alias gc="python /PATH/TO/gc_cat_cl.py"`
 
 and simply run in the terminal:
 
