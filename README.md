@@ -15,7 +15,7 @@ A Catalog of Galactic globular clusters' properties and dynamics.
 ## The catalog:
 This is a combination of multiple previously published globular cluster catalogs. The base catalog is the [Harris catalog, 2010 edition](http://www.physics.mcmaster.ca/~harris/Databases.html) ([Harris 1996](http://adsabs.harvard.edu/abs/1996AJ....112.1487H)). There are two other catalogs currently implemented as well: cluster stellar encounter rates from [Bahramian et al. 2013](http://adsabs.harvard.edu/abs/2013ApJ...766..136B) and theoretical mass, velocity disspersion and escape velocities from [Gnedin et al. 2002](http://adsabs.harvard.edu/abs/2002ApJ...568L..23G). More catalogs and studies will be added in the future.
 
-Additionally, if I encounter new studies which provide updated measurements for one or more clusters, they are added (and such updates are mentioned in the "notes" column in the catalog).
+Additionally, if I encounter (or peers/users inform me of) new studies, which provide updated measurements for one or more clusters, they are added (and such updates are mentioned in the "notes" column in the catalog).
 
 Currently this catalog is available in [fits](https://github.com/bersavosh/GC_cat/raw/master/gc_cat.fits), [ascii](https://raw.githubusercontent.com/bersavosh/GC_cat/master/gc_cat.txt) and [online](https://bersavosh.github.io/research/gc_cat.html).
 
@@ -121,7 +121,7 @@ Updating and maintaining catalogs requires a careful job and sufficient experien
 All updates applied to the original catalogs are logged in the file [updates.md](https://github.com/bersavosh/GC_cat/blob/master/updates.md). 
 
 ## Contact/disclaimer:
-**Contact**: If you have questions/suggestion, feel free to contact [me](https://bersavosh.github.io/).
+**Contact**: If you have questions/suggestions, feel free to contact [me](https://bersavosh.github.io/).
 
 **Disclaimer**: This catalog does not contain any original data at the moment, and it is based on published results in various publications. If you find this catalog useful, please make sure to cite the original references, and if possible acknowlege use of this repository.
 
