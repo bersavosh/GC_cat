@@ -1,7 +1,7 @@
 ## Log of all updates applied to the catalog:
 
 **2017-06-06**
-- Terzan 5: Distance/gal.coords/reddening/metallicity updated to values from Valenti et al. 2007
+- Terzan 5: Distance/coords/reddening/metallicity updated to values from Valenti et al. 2007
   - Note: More updates based on Valenti et al. 2007 will be implemented in the future.
 
 **2017-06-04**
