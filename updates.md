@@ -10,6 +10,6 @@
   - Note: Values for half-light and core radii of Terzan 1 might be overestimated.
 
 
-** To do**:
+**To do**:
 - Add the values for other clusters from Valenti et al. 2007.
 - Add parameters from [Sollima 2017](https://arxiv.org/pdf/1708.09529.pdf)
